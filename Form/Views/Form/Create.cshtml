@@ -1,0 +1,225 @@
+﻿@model Form.Models.Data
+
+@{
+    ViewData["Title"] = "Məlumat Formu";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/form-style.css" />
+</head>
+<body>
+    <div class="form-container">
+        <!-- ===== HEADER ===== -->
+        <div class="form-header">
+            <h1>Dalga Beach Aquapark Resort Qeydiyyat Formu</h1>
+            <p>Zəhmət olmasa, aşağıdakı məlumatları doldurun</p>
+        </div>
+
+        <!-- ===== BODY ===== -->
+        <div class="form-body">
+            @if (TempData["Success"] != null)
+            {
+                <div class="alert-success" id="successAlert">
+                    <span class="icon">✅</span>
+                    <span class="message">@TempData["Success"]</span>
+                    <button class="close-btn" onclick="document.getElementById('successAlert').remove()">✕</button>
+                </div>
+            }
+
+            <form asp-action="Create" method="post" id="form">
+                <div asp-validation-summary="ModelOnly" class="validation-summary"></div>
+
+                <!-- ===== SORĞU 1: FullName ===== -->
+                <div class="question-card">
+                    <div class="question-title">
+                        <span class="question-number">1.</span>
+                        Tam Ad
+                        <span class="required-star">*</span>
+                    </div>
+                    <div class="help-text">3-100 simvol</div>
+                    <input asp-for="FullName"
+                           class="form-control"
+                           placeholder="Cavabınız" />
+                    <span asp-validation-for="FullName" class="text-danger"></span>
+                </div>
+
+                <!-- ===== SORĞU 2: Faculty ===== -->
+                <div class="question-card">
+                    <div class="question-title">
+                        <span class="question-number">2.</span>
+                        Fakültə
+                        <span class="required-star">*</span>
+                    </div>
+                    <input asp-for="Faculty"
+                           class="form-control"
+                           placeholder="Cavabınız" />
+                    <span asp-validation-for="Faculty" class="text-danger"></span>
+                </div>
+                <!-- ===== SORĞU 3: Qrup (Radio Buttons ilə) ===== -->
+                <div class="question-card">
+                    <div class="question-title">
+                        <span class="question-number">3.</span>
+                        Kurs
+                        <span class="required-star">*</span>
+                    </div>
+                    <div class="help-text">Kursunuzu seçin</div>
+    
+                    <div class="radio-group">
+                        <label class="radio-option">
+                            <input type="radio" name="selectedGroup" value="1" />
+                            <span class="radio-label">1</span>
+                        </label>
+                        <label class="radio-option">
+                            <input type="radio" name="selectedGroup" value="2" />
+                            <span class="radio-label">2</span>
+                        </label>
+                        <label class="radio-option">
+                            <input type="radio" name="selectedGroup" value="3" />
+                            <span class="radio-label">3</span>
+                        </label>
+                        <label class="radio-option">
+                            <input type="radio" name="selectedGroup" value="4" />
+                            <span class="radio-label">4</span>
+                        </label>
+                    </div>
+    
+                    <!-- Bu hidden input əsl məlumatı daşıyır (database üçün) -->
+                  
+                </div>
+                <!-- ===== SORĞU 3: Group ===== -->
+                <div class="question-card">
+                    <div class="question-title">
+                        <span class="question-number">4.</span>
+                        Qrup
+                        <span class="required-star">*</span>
+                    </div>
+                    <input asp-for="Group"
+                           class="form-control"
+                           placeholder="Cavabınız" />
+                    <span asp-validation-for="Group" class="text-danger"></span>
+                </div>
+
+                <!-- ===== SORĞU 4: Email ===== -->
+                <div class="question-card">
+                    <div class="question-title">
+                        <span class="question-number">5.</span>
+                        Email
+                        <span class="required-star">*</span>
+                    </div>
+                    <input asp-for="Email"
+                           class="form-control"
+                           type="email"
+                           placeholder="Cavabınız" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+
+                <!-- ===== SORĞU 5: FId ===== -->
+                <div class="question-card">
+                    <div class="question-title">
+                        <span class="question-number">6.</span>
+                        FİN
+                        <span class="required-star">*</span>
+                    </div>
+                    <div class="help-text">7 simvol</div>
+                    <input asp-for="FId"
+                           class="form-control"
+                           placeholder="Cavabınız"
+                           maxlength="7" />
+                    <span asp-validation-for="FId" class="text-danger"></span>
+                </div>
+
+                <!-- ===== FORM ACTIONS ===== -->
+                <div class="form-actions">
+                    <div class="form-actions-left">
+                        <button type="button" class="btn-clear" onclick="clearForm(); return false;">Formanı təmizləyin</button>
+                    </div>
+                    <div class="form-actions-right">
+                        <button type="submit" class="btn-submit" id="submitBtn">
+                            <span class="btn-text">Göndər</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- ===== FORM FOOTER ===== -->
+                <div class="form-footer">
+                    <div class="footer-report">
+                        <span>Google Forma vasitəsilə heç vaxt parol təqdim etməyin</span>
+                        
+                    </div>
+                   
+
+                    <div class="footer-credit">
+                        <span>
+                            Bu forma Azərbaycan Texniki Universiteti daxilində yaradılmışdır.
+                        </span>
+                       
+                    </div>
+
+                    
+                </div>
+            </form>
+        </div>
+
+        <!-- ===== GOOGLE FORMS FOOTER ===== -->
+        <div class="google-footer">
+            <span class="google-text">Google Formaları</span>
+        </div>
+    </div>
+
+    <script>
+            // ===== FORM SUBMIT =====
+            document.getElementById('form').addEventListener('submit', function(e) {
+                var btn = document.getElementById('submitBtn');
+                btn.disabled = true;
+                btn.innerHTML = '<span class="spinner"></span><span>Göndərilir...</span>';
+            });
+
+            // ===== SUCCESS ALERT AUTO-HIDE =====
+            setTimeout(function() {
+                var alert = document.getElementById('successAlert');
+                if (alert) {
+                    alert.style.transition = 'opacity 0.5s ease';
+                    alert.style.opacity = '0';
+                    setTimeout(function() {
+                        if (alert.parentNode) alert.remove();
+                    }, 500);
+                }
+            }, 5000);
+
+            // ===== CLEAR FORM =====
+            function clearForm() {
+                if (confirm('Formanı təmizləmək istədiyinizə əminsiniz?')) {
+                    document.querySelectorAll('.form-control').forEach(function(input) {
+                        input.value = '';
+                    });
+                    document.querySelectorAll('.text-danger').forEach(function(span) {
+                        span.innerHTML = '';
+                    });
+                    document.querySelectorAll('.form-control').forEach(function(input) {
+                        input.classList.remove('error');
+                    });
+                }
+            }
+
+            // ===== REMOVE ERROR ON FOCUS =====
+            document.querySelectorAll('.form-control').forEach(function(input) {
+                input.addEventListener('focus', function() {
+                    this.classList.remove('error');
+                });
+            });
+    </script>
+
+    @section Scripts {
+        @{
+            await Html.RenderPartialAsync("_ValidationScriptsPartial");
+        }
+    }
+</body>
+</html>

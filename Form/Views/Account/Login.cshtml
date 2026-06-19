@@ -1,0 +1,148 @@
+﻿@page
+@{
+    Layout = null; // Eğer ana layout'u kullanmak istemiyorsanız null bırakın
+}
+
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Giriş - Azərbaycan Texniki Universiteti</title>
+    
+    <style>
+            * {
+                box-sizing: border-box;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+
+            body {
+                margin: 0;
+                padding: 0;
+                background-color: #f4f6f9;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                min-height: 100vh;
+            }
+
+            .login-container {
+                background-color: #ffffff;
+                width: 100%;
+                max-width: 450px;
+                padding: 40px;
+                border-radius: 8px;
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+                text-align: center;
+            }
+
+            .logo-box {
+                margin-bottom: 30px;
+            }
+
+                .logo-box img {
+                    max-width: 240px;
+                    height: auto;
+                }
+
+            .login-title {
+                font-size: 24px;
+                color: #000000;
+                margin-bottom: 25px;
+                font-weight: 500;
+            }
+
+            .form-group {
+                margin-bottom: 15px;
+            }
+
+            .form-control {
+                width: 100%;
+                padding: 14px;
+                border: 1px solid #dcdcdc;
+                border-radius: 4px;
+                font-size: 15px;
+                color: #333;
+                outline: none;
+                transition: border-color 0.2s;
+            }
+
+                .form-control:focus {
+                    border-color: #007bff;
+                }
+
+                .form-control::placeholder {
+                    color: #a0a0a0;
+                }
+
+            .btn-login {
+                width: 100%;
+                padding: 14px;
+                background-color: #007bff;
+                color: #ffffff;
+                border: none;
+                border-radius: 4px;
+                font-size: 16px;
+                cursor: pointer;
+                font-weight: 500;
+                transition: background-color 0.2s;
+                margin-top: 10px;
+            }
+
+                .btn-login:hover {
+                    background-color: #0069d9;
+                }
+
+            .forgot-password {
+                display: block;
+                margin-top: 20px;
+                text-align: right;
+                color: #007bff;
+                text-decoration: none;
+                font-size: 14px;
+            }
+
+                .forgot-password:hover {
+                    text-decoration: underline;
+                }
+    </style>
+</head>
+<body>
+
+    <div class="login-container">
+        <div class="logo-box">
+            <img src="~/images/aztu-logo.png" alt="Azərbaycan Texniki Universiteti" />
+        </div>
+
+        <h2 class="login-title">Giriş</h2>
+
+        <form method="post" action="/Account/Login">
+    
+            <div class="form-group">
+                <input type="text"
+                       name="Username"
+                       class="form-control"
+                       placeholder="İstifadəçi adı"
+                       required
+                       autocomplete="off"
+                       inputmode="numeric"
+                       pattern="[0-9]*"
+                       oninput="this.value = this.value.replace(/[^0-9]/g, '');" />
+            </div>
+
+            <div class="form-group">
+                <input type="password"
+                       name="Password"
+                       class="form-control"
+                       placeholder="Şifrə"
+                       required />
+            </div>
+
+            <button type="submit" class="btn-login">Daxil ol</button>
+
+            <a href="/Forgot-Password" class="forgot-password">Şifrəni unutdum</a>
+        </form>
+    </div>
+
+</body>
+</html>
