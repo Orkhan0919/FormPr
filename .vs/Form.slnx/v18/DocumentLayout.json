@@ -11,6 +11,10 @@
       "RelativeMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|solutionrelative:form\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|c:\\users\\mirze\\source\\repos\\form\\form\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|solutionrelative:form\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|c:\\users\\mirze\\source\\repos\\form\\form\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|solutionrelative:form\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -53,14 +57,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|c:\\users\\mirze\\source\\repos\\form\\form\\controllers\\formcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|solutionrelative:form\\controllers\\formcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|c:\\users\\mirze\\source\\repos\\form\\form\\migrations\\20260618190406_initialcreate2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|solutionrelative:form\\migrations\\20260618190406_initialcreate2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|c:\\users\\mirze\\source\\repos\\form\\form\\migrations\\20260618174048_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|solutionrelative:form\\migrations\\20260618174048_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,11 +66,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\mirze\\source\\repos\\Form\\Form\\Dockerfile",
+              "RelativeDocumentMoniker": "Form\\Dockerfile",
+              "ToolTip": "C:\\Users\\mirze\\source\\repos\\Form\\Form\\Dockerfile",
+              "RelativeToolTip": "Form\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-06-19T10:35:46.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Form.csproj",
               "DocumentMoniker": "C:\\Users\\mirze\\source\\repos\\Form\\Form\\Form.csproj",
               "RelativeDocumentMoniker": "Form\\Form.csproj",
@@ -86,7 +95,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "LoginViewModel.cs",
               "DocumentMoniker": "C:\\Users\\mirze\\source\\repos\\Form\\Form\\Models\\LoginViewModel.cs",
               "RelativeDocumentMoniker": "Form\\Models\\LoginViewModel.cs",
@@ -98,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\mirze\\source\\repos\\Form\\Form\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Form\\Data\\AppDbContext.cs",
@@ -116,7 +125,7 @@
               "RelativeDocumentMoniker": "Form\\appsettings.json",
               "ToolTip": "C:\\Users\\mirze\\source\\repos\\Form\\Form\\appsettings.json",
               "RelativeToolTip": "Form\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-06-18T16:56:30.128Z",
               "EditorCaption": ""
@@ -129,14 +138,14 @@
               "RelativeDocumentMoniker": "Form\\Program.cs",
               "ToolTip": "C:\\Users\\mirze\\source\\repos\\Form\\Form\\Program.cs",
               "RelativeToolTip": "Form\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAowCoAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-18T16:56:27.588Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\mirze\\source\\repos\\Form\\Form\\Views\\Form\\Create.cshtml",
               "RelativeDocumentMoniker": "Form\\Views\\Form\\Create.cshtml",
@@ -148,7 +157,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\mirze\\source\\repos\\Form\\Form\\Models\\User.cs",
               "RelativeDocumentMoniker": "Form\\Models\\User.cs",
@@ -160,7 +169,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\mirze\\source\\repos\\Form\\Form\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "Form\\Controllers\\AccountController.cs",
@@ -172,7 +181,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\mirze\\source\\repos\\Form\\Form\\Views\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "Form\\Views\\Account\\Login.cshtml",
@@ -184,19 +193,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "20260618190406_InitialCreate2.cs",
-              "DocumentMoniker": "C:\\Users\\mirze\\source\\repos\\Form\\Form\\Migrations\\20260618190406_InitialCreate2.cs",
-              "RelativeDocumentMoniker": "Form\\Migrations\\20260618190406_InitialCreate2.cs",
-              "ToolTip": "C:\\Users\\mirze\\source\\repos\\Form\\Form\\Migrations\\20260618190406_InitialCreate2.cs",
-              "RelativeToolTip": "Form\\Migrations\\20260618190406_InitialCreate2.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-18T19:04:06.778Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "form-style.css",
               "DocumentMoniker": "C:\\Users\\mirze\\source\\repos\\Form\\Form\\wwwroot\\css\\form-style.css",
               "RelativeDocumentMoniker": "Form\\wwwroot\\css\\form-style.css",
@@ -208,7 +205,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\mirze\\source\\repos\\Form\\Form\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "Form\\wwwroot\\css\\site.css",
@@ -220,7 +217,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Data.cs",
               "DocumentMoniker": "C:\\Users\\mirze\\source\\repos\\Form\\Form\\Models\\Data.cs",
               "RelativeDocumentMoniker": "Form\\Models\\Data.cs",
@@ -232,19 +229,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "20260618174048_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\mirze\\source\\repos\\Form\\Form\\Migrations\\20260618174048_InitialCreate.cs",
-              "RelativeDocumentMoniker": "Form\\Migrations\\20260618174048_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\mirze\\source\\repos\\Form\\Form\\Migrations\\20260618174048_InitialCreate.cs",
-              "RelativeToolTip": "Form\\Migrations\\20260618174048_InitialCreate.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-18T17:40:48.19Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "FormController.cs",
               "DocumentMoniker": "C:\\Users\\mirze\\source\\repos\\Form\\Form\\Controllers\\FormController.cs",
               "RelativeDocumentMoniker": "Form\\Controllers\\FormController.cs",

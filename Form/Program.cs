@@ -5,14 +5,30 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllersWithViews();
 
-// SQLite connection
+// PostgreSQL connection
 var connectionString = builder.Configuration.GetConnectionString("Default")
-                       ?? "Data Source=form.db";
+                       ?? throw new InvalidOperationException("Connection string 'Default' not found.");
 
 builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseSqlite(connectionString));
+    options.UseNpgsql(connectionString));
 
 var app = builder.Build();
+
+// Database-ni avtomatik yarat (lokalda EnsureCreated, Render-da Migrate)
+using (var scope = app.Services.CreateScope())
+{
+    var dbContext = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+
+    // Render mühitində migrasiya et, lokalda EnsureCreated
+    if (app.Environment.IsProduction())
+    {
+        dbContext.Database.Migrate();
+    }
+    else
+    {
+        dbContext.Database.EnsureCreated();
+    }
+}
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
