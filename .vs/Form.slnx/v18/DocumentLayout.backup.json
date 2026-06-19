@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\mirze\\source\\repos\\Form\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|c:\\users\\mirze\\source\\repos\\form\\form\\views\\form\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|solutionrelative:form\\views\\form\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|c:\\users\\mirze\\source\\repos\\form\\form\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|solutionrelative:form\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mirze\\source\\repos\\Form\\Form\\Migrations\\20260618190406_InitialCreate2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Form\\Migrations\\20260618190406_InitialCreate2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|c:\\users\\mirze\\source\\repos\\form\\form\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|solutionrelative:form\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|c:\\users\\mirze\\source\\repos\\form\\form\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|solutionrelative:form\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|c:\\users\\mirze\\source\\repos\\form\\form\\form.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|solutionrelative:form\\form.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|c:\\users\\mirze\\source\\repos\\form\\form\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|solutionrelative:form\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|c:\\users\\mirze\\source\\repos\\form\\form\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|solutionrelative:form\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|c:\\users\\mirze\\source\\repos\\form\\form\\views\\form\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|solutionrelative:form\\views\\form\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|c:\\users\\mirze\\source\\repos\\form\\form\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|solutionrelative:form\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|c:\\users\\mirze\\source\\repos\\form\\form\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,10 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|c:\\users\\mirze\\source\\repos\\form\\form\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|solutionrelative:form\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|c:\\users\\mirze\\source\\repos\\form\\form\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|solutionrelative:form\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|c:\\users\\mirze\\source\\repos\\form\\form\\wwwroot\\css\\form-style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -43,20 +51,16 @@
       "RelativeMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|solutionrelative:form\\models\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mirze\\source\\repos\\Form\\Form\\Migrations\\20260618174048_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Form\\Migrations\\20260618174048_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|c:\\users\\mirze\\source\\repos\\form\\form\\controllers\\formcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|solutionrelative:form\\controllers\\formcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|c:\\users\\mirze\\source\\repos\\form\\form\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|solutionrelative:form\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|c:\\users\\mirze\\source\\repos\\form\\form\\migrations\\20260618190406_initialcreate2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|solutionrelative:form\\migrations\\20260618190406_initialcreate2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|c:\\users\\mirze\\source\\repos\\form\\form\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|solutionrelative:form\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|c:\\users\\mirze\\source\\repos\\form\\form\\migrations\\20260618174048_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|solutionrelative:form\\migrations\\20260618174048_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,63 +70,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "20260618190406_InitialCreate2.cs",
-              "DocumentMoniker": "C:\\Users\\mirze\\source\\repos\\Form\\Form\\Migrations\\20260618190406_InitialCreate2.cs",
-              "RelativeDocumentMoniker": "Form\\Migrations\\20260618190406_InitialCreate2.cs",
-              "ToolTip": "C:\\Users\\mirze\\source\\repos\\Form\\Form\\Migrations\\20260618190406_InitialCreate2.cs",
-              "RelativeToolTip": "Form\\Migrations\\20260618190406_InitialCreate2.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-18T19:04:06.778Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\mirze\\source\\repos\\Form\\Form\\Views\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "Form\\Views\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\mirze\\source\\repos\\Form\\Form\\Views\\Account\\Login.cshtml",
-              "RelativeToolTip": "Form\\Views\\Account\\Login.cshtml",
-              "ViewState": "AgIAAGkAAAAAAAAAAAAIwI8AAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-18T18:44:39.172Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\mirze\\source\\repos\\Form\\Form\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "Form\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\mirze\\source\\repos\\Form\\Form\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "Form\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAcwCYAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-18T18:43:47.51Z",
+              "Title": "Form",
+              "DocumentMoniker": "C:\\Users\\mirze\\source\\repos\\Form\\Form\\Form.csproj",
+              "RelativeDocumentMoniker": "Form\\Form.csproj",
+              "ToolTip": "C:\\Users\\mirze\\source\\repos\\Form\\Form\\Form.csproj",
+              "RelativeToolTip": "Form\\Form.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-19T09:03:34.966Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\mirze\\source\\repos\\Form\\Form\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Form\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\mirze\\source\\repos\\Form\\Form\\Models\\User.cs",
-              "RelativeToolTip": "Form\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-18T18:42:14.439Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "LoginViewModel.cs",
               "DocumentMoniker": "C:\\Users\\mirze\\source\\repos\\Form\\Form\\Models\\LoginViewModel.cs",
               "RelativeDocumentMoniker": "Form\\Models\\LoginViewModel.cs",
@@ -135,7 +100,46 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\mirze\\source\\repos\\Form\\Form\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Form\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\mirze\\source\\repos\\Form\\Form\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Form\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-18T16:58:50.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\mirze\\source\\repos\\Form\\Form\\appsettings.json",
+              "RelativeDocumentMoniker": "Form\\appsettings.json",
+              "ToolTip": "C:\\Users\\mirze\\source\\repos\\Form\\Form\\appsettings.json",
+              "RelativeToolTip": "Form\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-18T16:56:30.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mirze\\source\\repos\\Form\\Form\\Program.cs",
+              "RelativeDocumentMoniker": "Form\\Program.cs",
+              "ToolTip": "C:\\Users\\mirze\\source\\repos\\Form\\Form\\Program.cs",
+              "RelativeToolTip": "Form\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-18T16:56:27.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\mirze\\source\\repos\\Form\\Form\\Views\\Form\\Create.cshtml",
               "RelativeDocumentMoniker": "Form\\Views\\Form\\Create.cshtml",
@@ -149,6 +153,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\mirze\\source\\repos\\Form\\Form\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Form\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\mirze\\source\\repos\\Form\\Form\\Models\\User.cs",
+              "RelativeToolTip": "Form\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-18T18:42:14.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\mirze\\source\\repos\\Form\\Form\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Form\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\mirze\\source\\repos\\Form\\Form\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Form\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAcwCYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-18T18:43:47.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\mirze\\source\\repos\\Form\\Form\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Form\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\mirze\\source\\repos\\Form\\Form\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Form\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAIwI8AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-18T18:44:39.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "20260618190406_InitialCreate2.cs",
+              "DocumentMoniker": "C:\\Users\\mirze\\source\\repos\\Form\\Form\\Migrations\\20260618190406_InitialCreate2.cs",
+              "RelativeDocumentMoniker": "Form\\Migrations\\20260618190406_InitialCreate2.cs",
+              "ToolTip": "C:\\Users\\mirze\\source\\repos\\Form\\Form\\Migrations\\20260618190406_InitialCreate2.cs",
+              "RelativeToolTip": "Form\\Migrations\\20260618190406_InitialCreate2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-18T19:04:06.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "form-style.css",
               "DocumentMoniker": "C:\\Users\\mirze\\source\\repos\\Form\\Form\\wwwroot\\css\\form-style.css",
               "RelativeDocumentMoniker": "Form\\wwwroot\\css\\form-style.css",
@@ -161,20 +217,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\mirze\\source\\repos\\Form\\Form\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Form\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\mirze\\source\\repos\\Form\\Form\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "Form\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-18T16:58:50.111Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\mirze\\source\\repos\\Form\\Form\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "Form\\wwwroot\\css\\site.css",
@@ -187,7 +230,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Data.cs",
               "DocumentMoniker": "C:\\Users\\mirze\\source\\repos\\Form\\Form\\Models\\Data.cs",
               "RelativeDocumentMoniker": "Form\\Models\\Data.cs",
@@ -200,20 +243,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "20260618174048_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\mirze\\source\\repos\\Form\\Form\\Migrations\\20260618174048_InitialCreate.cs",
               "RelativeDocumentMoniker": "Form\\Migrations\\20260618174048_InitialCreate.cs",
               "ToolTip": "C:\\Users\\mirze\\source\\repos\\Form\\Form\\Migrations\\20260618174048_InitialCreate.cs",
               "RelativeToolTip": "Form\\Migrations\\20260618174048_InitialCreate.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-18T17:40:48.19Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "FormController.cs",
               "DocumentMoniker": "C:\\Users\\mirze\\source\\repos\\Form\\Form\\Controllers\\FormController.cs",
               "RelativeDocumentMoniker": "Form\\Controllers\\FormController.cs",
@@ -222,32 +265,6 @@
               "ViewState": "AgIAAA0AAAAAAAAAAAAgwBYAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-18T17:07:36.248Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\mirze\\source\\repos\\Form\\Form\\appsettings.json",
-              "RelativeDocumentMoniker": "Form\\appsettings.json",
-              "ToolTip": "C:\\Users\\mirze\\source\\repos\\Form\\Form\\appsettings.json",
-              "RelativeToolTip": "Form\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-06-18T16:56:30.128Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\mirze\\source\\repos\\Form\\Form\\Program.cs",
-              "RelativeDocumentMoniker": "Form\\Program.cs",
-              "ToolTip": "C:\\Users\\mirze\\source\\repos\\Form\\Form\\Program.cs",
-              "RelativeToolTip": "Form\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-18T16:56:27.588Z",
               "EditorCaption": ""
             }
           ]
