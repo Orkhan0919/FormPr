@@ -1,0 +1,40 @@
+## .NET Core
+bin/
+obj/
+publish/
+out/
+
+## Database
+*.db
+*.db-journal
+
+## Visual Studio
+*.user
+*.suo
+*.userprefs
+*.sln.docstates
+
+## Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+
+## VS Code
+.vscode/
+
+## Rider
+.idea/
+
+## Azure Functions
+local.settings.json
+
+## Publish
+*.pubxml
+*.publishproj
